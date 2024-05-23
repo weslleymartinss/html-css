@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: black;
+    height: 200px;
+}
+header > h1 {
+    
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+header > p {
+    color: white;
+    text-align: center;
+}
+header p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header p > a:hover {
+    text-decoration: underline;
+}
