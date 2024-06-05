@@ -17,6 +17,6 @@ html, body {
 }
 h1 {
     color: white;
-    box-shadow: #020830;
+    text-shadow: 3px 3px 3px 3px #020830;
     padding: 20px;
 }
